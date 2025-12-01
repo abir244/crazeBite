@@ -1,0 +1,61 @@
+export const foods = [
+  // ✅ PIZZA (10)
+  { id: 1, name: "Cheese Pizza", price: 12, category: "pizza", img: require("../assets/images/pizza.png") },
+  { id: 2, name: "Pepperoni Pizza", price: 14, category: "pizza", img: { uri: "https://images.unsplash.com/photo-1601924582975-7e1b1b3c2f5b" }},
+  { id: 3, name: "Veggie Pizza", price: 13, category: "pizza", img: { uri: "https://images.unsplash.com/photo-1548365328-9f547b1c1d9d" }},
+  { id: 4, name: "BBQ Chicken Pizza", price: 15, category: "pizza", img: { uri: "https://images.unsplash.com/photo-1601924582975-7e1b1b3c2f5b" }},
+  { id: 5, name: "Margherita Pizza", price: 11, category: "pizza", img: { uri: "https://images.unsplash.com/photo-1548365328-9f547b1c1d9d" }},
+  { id: 6, name: "Four Cheese Pizza", price: 16, category: "pizza", img: { uri: "https://images.unsplash.com/photo-1601924582975-7e1b1b3c2f5b" }},
+  { id: 7, name: "Spicy Chicken Pizza", price: 15, category: "pizza", img: { uri: "https://images.unsplash.com/photo-1601924582975-7e1b1b3c2f5b" }},
+  { id: 8, name: "Tandoori Pizza", price: 14, category: "pizza", img: { uri: "https://images.unsplash.com/photo-1548365328-9f547b1c1d9d" }},
+  { id: 9, name: "Beef Lover Pizza", price: 17, category: "pizza", img: { uri: "https://images.unsplash.com/photo-1601924582975-7e1b1b3c2f5b" }},
+  { id: 10, name: "Hawaiian Pizza", price: 13, category: "pizza", img: { uri: "https://images.unsplash.com/photo-1548365328-9f547b1c1d9d" }},
+
+  // ✅ BURGERS (10)
+  { id: 11, name: "Beef Burger", price: 10, category: "burgers", img: require("../assets/images/burger.png") },
+  { id: 12, name: "Cheese Burger", price: 11, category: "burgers", img: require("../assets/images/burger.png") },
+  { id: 13, name: "Chicken Burger", price: 9, category: "burgers", img: { uri: "https://images.unsplash.com/photo-1550547660-d9450f859349" }},
+  { id: 14, name: "Double Patty Burger", price: 14, category: "burgers", img: { uri: "https://images.unsplash.com/photo-1550547660-d9450f859349" }},
+  { id: 15, name: "BBQ Burger", price: 12, category: "burgers", img: { uri: "https://images.unsplash.com/photo-1550547660-d9450f859349" }},
+  { id: 16, name: "Spicy Burger", price: 11, category: "burgers", img: { uri: "https://images.unsplash.com/photo-1550547660-d9450f859349" }},
+  { id: 17, name: "Crispy Chicken Burger", price: 10, category: "burgers", img: { uri: "https://images.unsplash.com/photo-1550547660-d9450f859349" }},
+  { id: 18, name: "Veggie Burger", price: 9, category: "burgers", img: { uri: "https://images.unsplash.com/photo-1550547660-d9450f859349" }},
+  { id: 19, name: "Mushroom Burger", price: 12, category: "burgers", img: { uri: "https://images.unsplash.com/photo-1550547660-d9450f859349" }},
+  { id: 20, name: "Classic Burger", price: 10, category: "burgers", img: require("../assets/images/burger.png") },
+
+  // ✅ DRINKS (10)
+  { id: 21, name: "Cold Coffee", price: 6, category: "drinks", img: require("../assets/images/coldcoffee.png") },
+  { id: 22, name: "Iced Tea", price: 5, category: "drinks", img: { uri: "https://images.unsplash.com/photo-1571079931235-6e0e0c1d1c5f" }},
+  { id: 23, name: "Lemonade", price: 4, category: "drinks", img: { uri: "https://images.unsplash.com/photo-1571079931235-6e0e0c1d1c5f" }},
+  { id: 24, name: "Mango Shake", price: 7, category: "drinks", img: { uri: "https://images.unsplash.com/photo-1571079931235-6e0e0c1d1c5f" }},
+  { id: 25, name: "Strawberry Shake", price: 7, category: "drinks", img: { uri: "https://images.unsplash.com/photo-1571079931235-6e0e0c1d1c5f" }},
+  { id: 26, name: "Orange Juice", price: 5, category: "drinks", img: { uri: "https://images.unsplash.com/photo-1571079931235-6e0e0c1d1c5f" }},
+  { id: 27, name: "Chocolate Shake", price: 8, category: "drinks", img: { uri: "https://images.unsplash.com/photo-1571079931235-6e0e0c1d1c5f" }},
+  { id: 28, name: "Blue Lagoon", price: 6, category: "drinks", img: { uri: "https://images.unsplash.com/photo-1571079931235-6e0e0c1d1c5f" }},
+  { id: 29, name: "Mint Mojito", price: 6, category: "drinks", img: { uri: "https://images.unsplash.com/photo-1571079931235-6e0e0c1d1c5f" }},
+  { id: 30, name: "Watermelon Juice", price: 5, category: "drinks", img: { uri: "https://images.unsplash.com/photo-1571079931235-6e0e0c1d1c5f" }},
+
+  // ✅ DESSERTS (10)
+  { id: 31, name: "Chocolate Cake", price: 8, category: "desserts", img: require("../assets/images/ChocolateCake.png") },
+  { id: 32, name: "Ice Cream Bowl", price: 7, category: "desserts", img: require("../assets/images/ice-cream_bowl.png") },
+  { id: 33, name: "Brownie", price: 6, category: "desserts", img: { uri: "https://images.unsplash.com/photo-1505253716362-afaea1d3d1af" }},
+  { id: 34, name: "Cupcake", price: 5, category: "desserts", img: { uri: "https://images.unsplash.com/photo-1505253716362-afaea1d3d1af" }},
+  { id: 35, name: "Donut", price: 4, category: "desserts", img: { uri: "https://images.unsplash.com/photo-1505253716362-afaea1d3d1af" }},
+  { id: 36, name: "Pudding", price: 6, category: "desserts", img: { uri: "https://images.unsplash.com/photo-1505253716362-afaea1d3d1af" }},
+  { id: 37, name: "Fruit Tart", price: 7, category: "desserts", img: { uri: "https://images.unsplash.com/photo-1505253716362-afaea1d3d1af" }},
+  { id: 38, name: "Ice Cream Sandwich", price: 6, category: "desserts", img: { uri: "https://images.unsplash.com/photo-1505253716362-afaea1d3d1af" }},
+  { id: 39, name: "Chocolate Mousse", price: 8, category: "desserts", img: { uri: "https://images.unsplash.com/photo-1505253716362-afaea1d3d1af" }},
+  { id: 40, name: "Strawberry Cake", price: 9, category: "desserts", img: { uri: "https://images.unsplash.com/photo-1505253716362-afaea1d3d1af" }},
+
+  // ✅ SNACKS (10)
+  { id: 41, name: "French Fries", price: 5, category: "snacks", img: require("../assets/images/fries.png") },
+  { id: 42, name: "Chicken Wings", price: 9, category: "snacks", img: { uri: "https://images.unsplash.com/photo-1504674900247-0877df9cc836" }},
+  { id: 43, name: "Garlic Bread", price: 4, category: "snacks", img: { uri: "https://images.unsplash.com/photo-1504674900247-0877df9cc836" }},
+  { id: 44, name: "Nachos", price: 6, category: "snacks", img: { uri: "https://images.unsplash.com/photo-1504674900247-0877df9cc836" }},
+  { id: 45, name: "Spring Rolls", price: 5, category: "snacks", img: { uri: "https://images.unsplash.com/photo-1504674900247-0877df9cc836" }},
+  { id: 46, name: "Popcorn Chicken", price: 7, category: "snacks", img: { uri: "https://images.unsplash.com/photo-1504674900247-0877df9cc836" }},
+  { id: 47, name: "Onion Rings", price: 4, category: "snacks", img: { uri: "https://images.unsplash.com/photo-1504674900247-0877df9cc836" }},
+  { id: 48, name: "Cheese Balls", price: 6, category: "snacks", img: { uri: "https://images.unsplash.com/photo-1504674900247-0877df9cc836" }},
+  { id: 49, name: "Chicken Nuggets", price: 7, category: "snacks", img: { uri: "https://images.unsplash.com/photo-1504674900247-0877df9cc836" }},
+  { id: 50, name: "Crispy Strips", price: 8, category: "snacks", img: { uri: "https://images.unsplash.com/photo-1504674900247-0877df9cc836" }},
+];
